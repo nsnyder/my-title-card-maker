@@ -1,0 +1,15 @@
+services:
+  titlecardmaker:
+    image: collinheist/titlecardmaker:latest
+    container_name: TitleCardMaker
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/New_York
+      - TCM_MISSING=/config/missing.yml
+      - TCM_RUNTIME=22:00
+      - TCM_FREQUENCY=12h
+    volumes:
+      - /home/nathan/Projects/MyTitleCardMaker/config:/config
+      - /home/nathan/Projects/MyTitleCardMaker/config:/maker/logs
+    restart: unless-stopped

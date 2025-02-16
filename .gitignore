@@ -1,0 +1,4 @@
+config/cards/
+config/maker.log*
+config/source/
+config/.objects

@@ -1,0 +1,90 @@
+libraries:
+  TV Shows:
+    media_server: plex
+    path: /config/cards
+libraries:
+  TV Shows:
+    media_server: plex
+    path: /config/cards
+    card_type: textless
+series:
+  2020 Tokyo Olympics (2021):
+    library: TV Shows
+  Angel (1999):
+    library: TV Shows
+    media_directory: /config/cards/Angel (1999) [DVD]
+  Brooklyn Nine-Nine (2013):
+    library: TV Shows
+    media_directory: /config/cards/Brooklyn Nine-Nine (2013) [Blu-ray]
+  Buffy the Vampire Slayer (1997):
+    library: TV Shows
+    media_directory: /config/cards/Buffy the Vampire Slayer (1997) [DVD]
+  Doctor Who (1963):
+    library: TV Shows
+    media_directory: /config/cards/Doctor Who (1963) [DVD]
+  Doctor Who (2005):
+    library: TV Shows
+  Doctor Who (2023):
+    library: TV Shows
+    media_directory: /config/cards/Doctor Who (2023) [Blu-ray]
+  Firefly (2002):
+    library: TV Shows
+    media_directory: /config/cards/Firefly (2002) [DVD]
+  Galavant (2015):
+    library: TV Shows
+    media_directory: /config/cards/Galavant (2015) [DVD]
+  Jeopardy! (1964):
+    library: TV Shows
+    media_directory: /config/cards/Jeopardy (1964)
+  'Play On: Celebrating The Power Of Music To Make Change (2020)':
+    library: TV Shows
+    media_directory: /config/cards/Play On Celebrating The Power Of Music To Make Change (2020)
+  'Star Trek: The Animated Series (1973)':
+    library: TV Shows
+    media_directory: /config/cards/Star Trek- The Animated Series (1973) [DVD]
+  'Star Trek: The Original Series (1966)':
+    library: TV Shows
+    media_directory: /config/cards/Star Trek (1966)
+  The Charlie Brown and Snoopy Show (1983):
+    library: TV Shows
+    media_directory: /config/cards/The Charlie Brown and Snoopy Show (1983) [DVD]
+  The Chase (2021):
+    library: TV Shows
+  # The Great British Bake Off (2010):
+  #   library: TV Shows
+  #   media_directory: /config/cards/The Great British Bake Off (2010) [DVD]
+  The Late Show with Stephen Colbert (2015):
+    library: TV Shows
+    media_directory: /config/cards/The Late Show With Stephen Colbert (2015)
+
+# series:
+#   Galavant (2015):
+#     # Exclude the library to prevent syncing
+#     # library: TV Shows
+#     card_type: white border
+#     media_directory: /config/cards/Galavant (2015) [DVD]
+
+# libraries:
+#   TV Shows:
+#     path: "/media/mycloud/Videos/TV Shows"
+
+# series:
+#   Doctor Who:
+#     name: Doctor Who (2005)
+#     year: 2005
+#     library: TV Shows
+#     seasons:
+#       0: "Specials"
+#       1: "Series 1"
+#       2: "Series 2"
+#       3: "Series 3"
+#       4: "Series 4"
+#       5: "Series 5"
+#       6: "Series 6"
+#       7: "Series 7"
+#       8: "Series 8"
+#       9: "Series 9"
+#       10: "Series 10"
+#       11: "Series 11"
+#       12: "Series 12"
+#       13: "Series 13: Flux"

@@ -1,0 +1,22 @@
+options:
+  filename_format: "S{season:02}E{episode:02} {title}"
+  source: /config/source/
+  series: /config/tv.yml
+  episode_data_source: plex
+
+plex:
+  url: http://192.168.1.4:32400
+  token: VdxuZod53ezxPRzJURxi
+  sync:
+  - card_directory: /config/cards
+  - file: /config/sync_tv.yml
+    compact_mode: false
+    libraries:
+    - TV Shows
+
+# sonarr:
+#   url: YOUR_SONARR_URL
+#   api_key: YOUR_SONARR_API_KEY
+
+# tmdb:
+#   api_key: YOUR_TMDB_API_KEY
