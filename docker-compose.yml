@@ -10,6 +10,6 @@ services:
       - TCM_RUNTIME=22:00
       - TCM_FREQUENCY=12h
     volumes:
-      - /home/nathan/Projects/MyTitleCardMaker/config:/config
-      - /home/nathan/Projects/MyTitleCardMaker/config:/maker/logs
+      - /home/nathan/Projects/my-title-card-maker/config:/config
+      - /home/nathan/Projects/my-title-card-maker/config:/maker/logs
     restart: unless-stopped
