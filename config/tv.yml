@@ -10,7 +10,7 @@ series:
     card_type: textless
   Doctor Who (2005) (2005):
     year: 2005
-    library: TV Shows
+    # library: TV Shows
     media_directory: /config/cards/Doctor Who (2005)
     card_type: textless
 
