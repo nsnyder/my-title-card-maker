@@ -1,5 +1,6 @@
 options:
   filename_format: "S{season:02}E{episode:02} {title}"
+  season_folder_format: "Season {season:02}"
   source: /config/source/
   series: /config/tv.yml
   episode_data_source: plex

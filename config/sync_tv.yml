@@ -47,7 +47,7 @@ series:
     library: TV Shows
   The Great British Bake Off (2010):
     library: TV Shows
-    media_directory: /config/cards/The Great British Bake Off (2010) [DVD]
+    media_directory: /config/cards/The Great British Bake Off (2010) [DVD] {tvdb-184871}
   The Late Show with Stephen Colbert (2015):
     library: TV Shows
     media_directory: /config/cards/The Late Show With Stephen Colbert (2015)
