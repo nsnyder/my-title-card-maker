@@ -5,32 +5,43 @@ libraries:
 series:
   Galavant (2015):
     # Comment the library out so that it doesn't sync to Plex automatically.
+    # This also prevents cards from being locked.
     # library: TV Shows
     media_directory: /config/cards/Galavant (2015) [DVD]
     card_type: textless
-  Doctor Who (2005) (2005):
-    year: 2005
-    # library: TV Shows
-    media_directory: /config/cards/Doctor Who (2005)
-    card_type: textless
 
-# series:
-#   Doctor Who:
-#     name: Doctor Who (2005)
-#     year: 2005
-#     library: TV Shows
-#     seasons:
-#       0: "Specials"
-#       1: "Series 1"
-#       2: "Series 2"
-#       3: "Series 3"
-#       4: "Series 4"
-#       5: "Series 5"
-#       6: "Series 6"
-#       7: "Series 7"
-#       8: "Series 8"
-#       9: "Series 9"
-#       10: "Series 10"
-#       11: "Series 11"
-#       12: "Series 12"
-#       13: "Series 13: Flux"
+  ##################################################
+  # We have manual cards for the following titles. #
+  ##################################################
+  # They are kept for posterity, especially since Doctor Who (2005)
+  # was difficult to get working.
+  # Doctor Who (2005) (2005):
+  #   year: 2005
+  #   # library: TV Shows
+  #   media_directory: /config/cards/Doctor Who (2005)
+  #   card_type: textless
+  #     # These seasons are not tested.
+  #     seasons:
+  #       0: "Specials"
+  #       1: "Series 1"
+  #       2: "Series 2"
+  #       3: "Series 3"
+  #       4: "Series 4"
+  #       5: "Series 5"
+  #       6: "Series 6"
+  #       7: "Series 7"
+  #       8: "Series 8"
+  #       9: "Series 9"
+  #       10: "Series 10"
+  #       11: "Series 11"
+  #       12: "Series 12"
+  #       13: "Series 13: Flux"
+  # Doctor Who (2023):
+  #   library: TV Shows
+  #   media_directory: /config/cards/Doctor Who (2023) [Blu-ray]
+  # The Great British Bake Off (2010):
+  #   library: TV Shows
+  #   media_directory: /config/cards/The Great British Bake Off (2010) [DVD] {tvdb-184871}
+  # Firefly (2002):
+  #   library: TV Shows
+  #   media_directory: /config/cards/Firefly (2002) [DVD]
